@@ -1,0 +1,135 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  color: #333;
+}
+
+/* Navbar */
+header {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 15px 50px;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff9800;
+}
+
+/* Home Section */
+#home {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #ff9800, #ff5722);
+  color: white;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-bottom: 15px;
+}
+
+#home h1 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+#home span {
+  background: white;
+  color: #ff5722;
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
+/* About */
+#about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  margin-bottom: 20px;
+  color: #ff5722;
+}
+
+/* Certificates */
+.cert-gallery {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cert-gallery img {
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.cert-gallery .caption {
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Contact */
+#contact {
+  padding: 40px;
+  text-align: center;
+}
+
+#contact a {
+  color: #ff5722;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
